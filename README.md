@@ -1,10 +1,10 @@
-== Jeemon
+# Jeemon
 Control your daemons!
 
 This project intends to provide an easy way to manage or daemonize your programs with Go.
 
 
-# Usage
+## Usage
 
 ```
 pid, err := daemon.Start("bundle exec rails server")
@@ -19,10 +19,11 @@ pid, _ = daemon.Stop(pid)
 fmt.Printf("Program stopped %d", pid)
 ```
 
-# Tests
+## Tests
 
 `$ go test ./...`
 
 
-# Author
-[Tony Fabeen Oreste](mailto: tony.fabeen@gmail.com)
+## Author
+
+[Tony Fabeen Oreste](tony.fabeen@gmail.com)
